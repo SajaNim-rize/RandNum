@@ -35,7 +35,8 @@ class MainActivity : AppCompatActivity() {
         count = Integer.parseInt(binding.editCount.text.toString())
 
         arrayList = CreateRandNum(min, max, count)
-        
+
+
     }
     inner class Button : OnClickListener{
         override fun onClick(p0: View?) {
