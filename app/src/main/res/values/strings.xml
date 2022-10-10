@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RandNum</string>
+    <string name="log">기록</string>
+    <string name="calcul">계산하기</string>
+    <string name="count">난수 개수 :</string>
+    <string name="max">최대값 :</string>
+    <string name="min">최소값 :</string>
+    <string name="check">소숫점 여부 : </string>
+</resources>
