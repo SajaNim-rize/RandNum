@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
     private var mBinding: ActivityMainBinding? = null
     private val binding get() = mBinding!!
 
-    lateinit var btn : Button
     lateinit var arrayList: ArrayList<Int>
     lateinit var listView : ListView
     var min = 0;
@@ -34,11 +33,13 @@ class MainActivity : AppCompatActivity() {
         max = Integer.parseInt(binding.editMax.text.toString())
         count = Integer.parseInt(binding.editCount.text.toString())
 
-        arrayList = CreateRandNum(min, max, count)
-        
+        binding.calculbtn.setOnClickListener(Button())
+
+
     }
     inner class Button : OnClickListener{
         override fun onClick(p0: View?) {
+            arrayList = CreateRandNum(min, max, count)
 
         }
     }
