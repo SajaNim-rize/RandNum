@@ -16,5 +16,8 @@ interface RandDao {
     fun insert(todo: RandModel)
 
     @Delete
-    fun delete(todo: RandModel)
+    fun delete(rand : RandModel)
+
+    @Query("SELECT createcalInt FROM tb_cal")
+    fun getInt()
 }

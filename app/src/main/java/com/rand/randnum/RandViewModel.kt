@@ -9,7 +9,7 @@ class RandViewModel(application: Application) : AndroidViewModel(application) {
     private var randItems =
         randRepository.getTodoListAll()
 
-    fun getTodoListAll(): LiveData<List<RandModel>> {
+    fun getListAll(): LiveData<List<RandModel>> {
         return randItems
     }
 

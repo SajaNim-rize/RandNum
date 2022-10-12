@@ -116,13 +116,23 @@
 
         <Button
             android:id="@+id/calculbtn"
-            android:layout_width="match_parent"
+            android:layout_width="100dp"
             android:layout_height="50dp"
             android:text="@string/calcul"
-            android:textSize="22sp"
-            android:layout_gravity="center"
+            android:textSize="16sp"
             android:gravity="center"
-            android:layout_weight="1">
+            >
+        </Button>
+
+        <Button
+            android:id="@+id/deletebtn"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/delete"
+            android:layout_marginLeft="15dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            >
         </Button>
 
         <View
