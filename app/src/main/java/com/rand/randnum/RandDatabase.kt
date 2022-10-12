@@ -8,7 +8,7 @@ import androidx.room.RoomDatabase
 @Database(entities = [RandModel::class], version = 1)
 abstract class RandDatabase : RoomDatabase() {
 
-    abstract fun todoDao(): RandDao
+    abstract fun randDao(): RandDao
 
     companion object {
 

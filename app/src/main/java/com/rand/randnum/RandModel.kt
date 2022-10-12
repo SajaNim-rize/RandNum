@@ -22,11 +22,11 @@ data class RandModel(
     var check: Boolean,
 
     @ColumnInfo(name = "createcalInt")
-    var createcal: Int,
+    var createcal: String,
 
     @ColumnInfo(name = "createcalDouble")
-    var createcalDouble: Double
+    var createcalDouble: String
 ) {
-    constructor() : this(null, 0, 0, 0, false, 0, 0.0)
+    constructor() : this(null, 0, 0, 0, false, "", "")
 }
 
